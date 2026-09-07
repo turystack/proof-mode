@@ -3,6 +3,7 @@
 	"description": "Delivery harness skill — it runs one task from end to end: resolves its context, routes to the pattern skills, runs the gate ladder per slice and closes with an evidence-backed report. The session's entry point is @turystack/harness, which decides which task this is. Installed into .claude/skills and/or .codex/skills via the turystack CLI.",
 	"private": false,
 	"version": "1.0.0",
+	"packageManager": "pnpm@10.12.3",
 	"sideEffects": false,
 	"publishConfig": {
 		"access": "public"
